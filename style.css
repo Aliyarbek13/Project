@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+main {
+    max-width: 500px;
+    margin: 50px auto;
+}
+.todo {
+    box-shadow: 0 0 30px #aeaeae;
+    display: flex;
+    flex-direction: column;
+}
+.todo div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.todo__header {
+    justify-content: space-between;
+    border-bottom: 1px solid #e3e3e3;
+}
+.todo__body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+.todo__body li {
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 30px #e3e3e3;
+}
+.todo__footer {
+    border-top: 1px solid #e3e3e3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#form input{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+.empty {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: tomato;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.delBtn {
+    color: red;
+    cursor: pointer;
+}
+input {
+    cursor: pointer;
+}
+.checked {
+    opacity: 0.6;
+
+}
+.check_mark {
+    width: 48px;
+}
+.checked .text {
+    text-decoration: line-through;
+}
